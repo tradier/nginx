@@ -52,7 +52,6 @@ types {
     application/octet-stream              bin exe dll;
     application/octet-stream              deb;
     application/octet-stream              dmg;
-    application/octet-stream              eot;
     application/octet-stream              iso img;
     application/octet-stream              msi msp msm;
     audio/midi                            mid midi kar;
@@ -71,4 +70,15 @@ types {
     video/x-ms-asf                        asx asf;
     video/x-ms-wmv                        wmv;
     video/x-msvideo                       avi;
+
+    # currently supported mime types
+    application/x-font-woff               woff;
+    application/x-font-ttf                ttf;
+    application/x-font-otf                otf;
+    application/vnd.ms-fontobject         eot;
+
+    # eventually supported mime types
+    # font/woff                             woff;
+    # font/ttf                              ttf;
+    # font/opentype                         otf;
 }
